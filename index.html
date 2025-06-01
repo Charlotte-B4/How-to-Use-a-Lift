@@ -121,7 +121,8 @@ var LZString=function(){var r=String.fromCharCode,o="ABCDEFGHIJKLMNOPQRSTUVWXYZa
 }
 
 #story-caption {
- color: pink;
+ color: white;
+ font-size: 15px;
 }
 
 #ui-bar {
@@ -132,11 +133,11 @@ var LZString=function(){var r=String.fromCharCode,o="ABCDEFGHIJKLMNOPQRSTUVWXYZa
   
 }
 
+#passages {font-family: "Cabin Sketch"; }
 
 
 body {
    background-color: #040044;
-   font-family: ;
    font-size: ;
     }
 
@@ -349,7 +350,7 @@ It may be small by tower standards, but its floors offer many routes &lt;!-- and
 &lt;&lt;audio &quot;bgm1&quot; stop&gt;&gt;</tw-passagedata><tw-passagedata pid="2" name="Intro 2" tags="" position="525,300" size="100,100">&lt;div class=&quot;page&quot;&gt;
 	&lt;div class=&quot;text&quot;&gt;
     
-&lt;br&gt;You can hardly remember why you came here.
+		&lt;br&gt;You can hardly remember why you came here.
 
 [[(enter.)|Intro 3]]
 
@@ -359,13 +360,13 @@ It may be small by tower standards, but its floors offer many routes &lt;!-- and
 &lt;img class=&quot;storyimage&quot; src=&quot;./images/building.jpg&quot; alt=&quot;the outside of tall grey modern building&quot;&gt;
 &lt;/div&gt;</tw-passagedata><tw-passagedata pid="3" name="Intro 3" tags="" position="650,300" size="100,100">&lt;div class=&quot;page&quot;&gt;
 	&lt;div class=&quot;text&quot;&gt;
-&lt;br&gt;This is the lobby — floor zero, the &lt;em&gt;ground floor&lt;/em&gt; of the building.
-&lt;br&gt;[[(continue.)|Intro 4]]
+		&lt;br&gt;This is the lobby — floor zero, the &lt;em&gt;ground floor&lt;/em&gt; of the building.
+		&lt;br&gt;[[(continue.)|Intro 4]]
 		
 &lt;/div&gt;
 &lt;img class=&quot;storyimage&quot; src=&quot;./images/lobby-intro.jpg&quot; alt=&quot;the foyer of a building&quot;&gt;
 &lt;/div&gt;</tw-passagedata><tw-passagedata pid="4" name="Intro 5" tags="" position="400,425" size="100,100">&lt;div class=&quot;page&quot;&gt;
-	&lt;div class=&quot;text&quot;&gt;
+&lt;div class=&quot;text&quot;&gt;
     
 		&lt;h2&gt;&lt;em&gt;A Lift&lt;/em&gt;&lt;/h2&gt;
         &#39;Elevator&#39; in English (US) -- &#39;Elevates&#39; to higher realities -- Analogue controls
@@ -385,7 +386,7 @@ It may be small by tower standards, but its floors offer many routes &lt;!-- and
 
 
 
-</tw-passagedata><tw-passagedata pid="5" name="StoryCaption" tags="" position="100,400" size="100,100">&lt;!-- Used to show dynamic information about the main character or the story&#39;s progress. --&gt;</tw-passagedata><tw-passagedata pid="6" name="StoryAuthor" tags="" position="100,300" size="100,100">by Charlotte Burnett (2025)
+</tw-passagedata><tw-passagedata pid="5" name="StoryCaption" tags="" position="100,400" size="100,100">- contains audio -</tw-passagedata><tw-passagedata pid="6" name="StoryAuthor" tags="" position="100,300" size="100,100">by Charlotte Burnett (2025)
 &lt;a href=&quot;https://charlotteburnett.github.io/&quot;&gt;other works&lt;/a&gt;</tw-passagedata><tw-passagedata pid="7" name="StoryBanner" tags="" position="200,300" size="100,100">How to Use a</tw-passagedata><tw-passagedata pid="8" name="Title" tags="" position="525,425" size="100,100">   	&lt;img src=&quot;./images/title.gif&quot; alt=&quot;outside of the lift&quot; align=center width=100%&gt;
     &lt;br&gt;&lt;h2 align=center&gt; A simple three-step process.  &lt;/h2&gt;
     &lt;p align=center&gt; [[(continue.)-&gt;Step 1, 1]]  &lt;/p&gt;
@@ -400,12 +401,12 @@ It may be small by tower standards, but its floors offer many routes &lt;!-- and
        
   
 	&lt;/div&gt;
-    &lt;img class=&quot;storyimage&quot; src=&quot;./images/outside-lift-DOWN.jpg&quot; alt=&quot;outside of the lift&quot;&gt;
+    &lt;img class=&quot;storyimage&quot; src=&quot;./images/outside-lift-down.jpg&quot; alt=&quot;outside of the lift&quot;&gt;
 &lt;/div&gt;
     
 &lt;&lt;audio &quot;chime&quot; play volume 0.5&gt;&gt;
 </tw-passagedata><tw-passagedata pid="10" name="Step 1, 1" tags="" position="650,425" size="100,100">&lt;div class=&quot;page&quot;&gt;
-	&lt;div class=&quot;text&quot;&gt;
+&lt;div class=&quot;text&quot;&gt;
     
 	&lt;h1 align=center&gt; Step 1: Observe the control panel&lt;/h1&gt;
 	&lt;h2 align=center&gt; You will not yet be entering the lift&lt;/h2&gt;
@@ -442,7 +443,7 @@ It may be small by tower standards, but its floors offer many routes &lt;!-- and
        
   
 	&lt;/div&gt;
-    &lt;img class=&quot;storyimage&quot; src=&quot;./images/outside-lift-UP.jpg&quot; alt=&quot;outside of the lift&quot;&gt;
+    &lt;img class=&quot;storyimage&quot; src=&quot;./images/outside-lift-up.jpg&quot; alt=&quot;outside of the lift&quot;&gt;
 &lt;/div&gt;
     
 &lt;&lt;audio &quot;chime&quot; play volume 0.5&gt;&gt;
@@ -2108,7 +2109,7 @@ function printStringByLetter() {
         &lt;/div&gt;
         
           &lt;&lt;audio &quot;level-6&quot; fadeout&gt;&gt;</tw-passagedata><tw-passagedata pid="109" name="Intro 4" tags="" position="775,300" size="100,100">&lt;div class=&quot;pagelist&quot;&gt;
-	&lt;div class=&quot;text&quot;&gt;
+&lt;div class=&quot;text&quot;&gt;
 &lt;br&gt;There is:&lt;br&gt;
 &lt;style&gt;
 		font-family: &quot;Cabin Sketch&quot;;
@@ -2144,7 +2145,7 @@ function printStringByLetter() {
 	&lt;img class=&quot;storyimage&quot; src=&quot;./images/lobby-intro.jpg&quot; alt=&quot;the foyer of a building&quot;&gt;
 &lt;/div&gt;
 </tw-passagedata><tw-passagedata pid="110" name="Step 1, 2" tags="" position="775,425" size="100,100">&lt;div class=&quot;page&quot;&gt;
-	&lt;div class=&quot;text&quot;&gt;
+&lt;div class=&quot;text&quot;&gt;
     &lt;br&gt;Consider where you stand in relation to your desired destination. 
     
     To successfully use a lift, you need a desired destination.
@@ -2158,7 +2159,7 @@ function printStringByLetter() {
 
 
 </tw-passagedata><tw-passagedata pid="111" name="Step 1, 3" tags="" position="900,425" size="100,100">&lt;div class=&quot;page&quot;&gt;
-	&lt;div class=&quot;text&quot;&gt;
+&lt;div class=&quot;text&quot;&gt;
     &lt;br&gt;
     * What level of the towert are you currently on?, 
     * What level is your desired destination on?
@@ -2173,7 +2174,7 @@ function printStringByLetter() {
 	&lt;img class=&quot;storyimage&quot; src=&quot;./images/outside-lift-start.jpg&quot; alt=&quot;outside of the lift&quot;&gt;
 &lt;/div&gt;
 </tw-passagedata><tw-passagedata pid="112" name="Step 1, 4" tags="" position="1025,425" size="100,100">&lt;div class=&quot;page&quot;&gt;
-	&lt;div class=&quot;text&quot;&gt;
+&lt;div class=&quot;text&quot;&gt;
 
     An Example --
     
